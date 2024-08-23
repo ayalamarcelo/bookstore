@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Tiempos";
+  src: url("../fonts/Tiempos/TiemposText/TiemposText-Regular.otf");
+}
+@font-face {
+  font-family: "AlrightSansLT";
+  src: url("../fonts/AlrightSans/AlrightSans-Regular.otf");
+}
+
+h1, h2, h3 {
+  font-family: Tiempos, Serif;
+}
+
+h4, h5, p, span, a, li {
+  font-family: AlrightSansLT, sans-serif;
+}
