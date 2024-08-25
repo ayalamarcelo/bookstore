@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="styles/gallery.css">
     <link rel="stylesheet" href="./styles/global.css">
     <script src="https://kit.fontawesome.com/9567d7dc41.js" crossorigin="anonymous"></script>
     <title>Welcome!</title>
@@ -15,7 +17,7 @@
     <header>
         <div class="header-top">
             <div class="logo">
-                <img src="./assets/5462185-200.png" alt="logo">
+                <img src="./assets/logo.png" alt="logo">
             </div>
             <form class="search-bar" action="#" method="get">
                 <input type="text" placeholder="Enter a title, author or ISBN" name="search">
@@ -36,7 +38,7 @@
             <ul class="nav-links">
                 <li><a href="#" class="nav-link" data-section="books">Books</a></li>
                 <li><a href="#" class="nav-link" data-section="authors">Authors</a></li>
-                <li><a href="#" class="nav-link" data-section="discover">Discover</a></li>
+                <li><a href="#discover" class="nav-link" data-section="discover">Discover</a></li>
                 <li><a href="#" class="nav-link" data-section="connect">Connect</a></li>
             </ul>
         </nav>
@@ -119,9 +121,48 @@
         </div>
     </section>
 
+    <!-- Img Gallery -->
+
+    <section class="gallery" id="discover">
+        <h2>Discover</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae qui maiores fugiat.</p>
+        <div class="gallery-container">
+            <div class="gallery-slide">
+                <img src="./assets/gallery3.jpg" alt="Imagen 1">
+                <img src="./assets/gallery4.jpg" alt="Imagen 2">
+                <img src="./assets/gallery5.jpg" alt="Imagen 3">
+                <!-- Agrega más imágenes según sea necesario -->
+            </div>
+            <button class="gallery-prev" aria-label="Previous">
+                &#10094;
+            </button>
+            <button class="gallery-next" aria-label="Next">
+                &#10095;
+            </button>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+
+    <footer class="footer">
+        <hr class="footer-divider">
+        <div class="footer-bottom">
+            <div class="footer-left">
+                <span>© 2024 Company, Inc</span>
+            </div>
+            <img src="./assets/logo.png" alt="logo" class="logo-footer">
+            <div class="footer-right">
+                <a href="#">FAQs</a>
+                <a href="#">About</a>
+            </div>
+        </div>
+    </footer>
+
+
 
     <script src="./js/script.js"></script>
     <script src="./js/grid.js"></script>
+    <script src="./js/gallery.js"></script>
 </body>
 
 </html>
