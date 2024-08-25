@@ -15,7 +15,7 @@ nextButton.addEventListener('click', () => {
   if (index < slides.length - 1) {
     index++;
   } else {
-    index = 0; // Opcional: volver a la primera imagen
+    index = 0;
   }
   updateSlidePosition();
 });
@@ -25,7 +25,7 @@ prevButton.addEventListener('click', () => {
   if (index > 0) {
     index--;
   } else {
-    index = slides.length - 1; // Opcional: volver a la última imagen
+    index = slides.length - 1;
   }
   updateSlidePosition();
 });
