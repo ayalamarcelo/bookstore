@@ -37,6 +37,7 @@ main {
     gap: 2rem;
     border-radius: 10px;
     position: relative;
+    margin: 20px;
     z-index: 2;
 }
 
@@ -96,6 +97,33 @@ main {
 .bookmarks .fa-regular:hover {
     border: 1.5px solid #3daed0;
     color: #3daed0;
+}
+
+.close-button .fa-solid {
+    font-size: 14px;
+    font-weight: 200;
+    padding: 8px;
+    border: 1.5px solid #fff;
+    border-radius: 2px;
+}
+
+.close-button .fa-solid:hover {
+    border: 1.5px solid #f00;
+}
+
+.close-button {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+.close-button:hover {
+    color: #f00;
+    /* Color al pasar el mouse, puedes cambiarlo */
 }
 
 /* Background Media Queries */
@@ -160,7 +188,7 @@ main {
     }
 
     .bookmarks .fa-regular {
-        padding: 8px;
-        margin-left: 0;
+        padding: 10px;
+        margin-left: 10px;
     }
 }
