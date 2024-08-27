@@ -92,6 +92,8 @@ main {
     color: #fff;
     margin-left: 10px;
     border-radius: 2px;
+    font-size: 14px;
+    font-weight: 200;
 }
 
 .bookmarks .fa-regular:hover {
