@@ -1,2 +1,2 @@
-# Bookstore
-## Ecommerce platform for buying books and ebooks.
+## Bookstore
+<p>Ecommerce platform for buying books and ebooks.</p>
